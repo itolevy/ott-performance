@@ -1,0 +1,1 @@
+{"filter":{"kSql":"(and asset_type='600'   customer_type_blacklist!='5' (or region_agnostic_user_types='5' (or region_whitelist='1090' (and region_blacklist!='1090' (or region_whitelist='0' region_whitelist!+\")))))","typeIn":"600","orderBy":"NAME_DESC","objectType":"KalturaSearchAssetFilter"},"pager":{"pageIndex":3,"pageSize":50},"ks":"${ks}","apiVersion":"4.7"}

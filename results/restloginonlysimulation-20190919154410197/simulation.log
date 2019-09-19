@@ -1,0 +1,142 @@
+ASSERTION	AAECAAMFAAAAAAAAAFlA
+RUN	com.kaltura.performance.simulations.RestLoginOnlySimulation	restloginonlysimulation	1568907850197	 	3.2.1
+USER	loginOnly	1	START	1568907851124	1568907851124
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907851138
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907851139
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907851140
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907851140
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907851140
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907851141
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907851141
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907851141
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907851141
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851142
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851142
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851143
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851143
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851143
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907851143
+USER	loginOnly	2	START	1568907851343	1568907851343
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907851345
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907851345
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907851345
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907851346
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907851346
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907851346
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907851347
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907851347
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907851347
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851347
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851348
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851348
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851348
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851349
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907851349
+USER	loginOnly	3	START	1568907851544	1568907851544
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907851545
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907851546
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907851546
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907851546
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907851547
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907851547
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907851547
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907851547
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907851548
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851548
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851548
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851549
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851549
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851549
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907851550
+USER	loginOnly	4	START	1568907851743	1568907851743
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907851745
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907851745
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907851745
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907851745
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907851746
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907851746
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907851746
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907851747
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907851747
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851747
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851748
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851748
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851748
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851749
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907851749
+USER	loginOnly	5	START	1568907851942	1568907851942
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907851944
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907851944
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907851944
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907851945
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907851945
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907851945
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907851945
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907851946
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907851946
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851946
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851946
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851947
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851947
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907851947
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907851947
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907856162
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907856162
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907856163
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907856163
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907856163
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907856163
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907856163
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907856163
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907856163
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856164
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856164
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856164
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856164
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856164
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907856165
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907856364
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907856364
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907856365
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907856365
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907856365
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907856365
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907856366
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907856366
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907856366
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856366
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856366
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856367
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856367
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856367
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907856367
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907856564
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907856565
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907856565
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907856566
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907856566
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907856566
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907856566
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907856567
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907856567
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856567
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856567
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856567
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856568
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856568
+ERROR	Get household user list : Failed to build request: No attribute named 'KS' is defined 	1568907856568
+ERROR	Get runtime configuration for client applications: Failed to build request: No attribute named 'uuid' is defined 	1568907856762
+ERROR	Ott user login request: Failed to build request: No attribute named 'loginUsername' is defined 	1568907856763
+ERROR	Get Ott User List: Failed to build request: No attribute named 'ks' is defined 	1568907856763
+ERROR	Get domain info: Failed to build request: Resource /json/onlyks.json not found 	1568907856763
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody1.json not found 	1568907856763
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody2.json not found 	1568907856764
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody3.json not found 	1568907856764
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody4.json not found 	1568907856764
+ERROR	Get assets action list: Failed to build request: Resource /json/assetActionListBody5.json not found 	1568907856765
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856765
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856765
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856765
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856765
+ERROR	Get product price action list: Failed to build request: No attribute named 'ks' is defined 	1568907856765
+ERROR	

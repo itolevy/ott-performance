@@ -11,17 +11,6 @@ import io.gatling.core.structure.ChainBuilder
 
 class VodafoneRestScenario extends RestBaseScenario{
 
-  /*
-  setTestName(Config.testName)
-  setPartnerId(Config.rest_partner_id)
-  setApiVersion(Config.rest_api_version)
-  setNumberOfUsers(Config.numberOfUsers)
-  setTestDuration(Config.scenarioDuration)
-  setRampUpduration(Config.rampUpDuration)
-  isTimeBasedScenario = true
-  setDelayBetweenTransactions(Config.pauseBetweenRequests)
-
-   */
 
 
   def setRunLogic: ChainBuilder = {

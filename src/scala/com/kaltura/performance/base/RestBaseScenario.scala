@@ -11,16 +11,7 @@ import io.gatling.core.Predef.scenario
 
 abstract class RestBaseScenario extends RestApi {
 
-/*
-  var partnerId: Int = 0
-  var apiVersion: String = null
-  var numberOfUsers: String = null
-  var testDuration: String = null
-  var rampUpDuration: String = null
-  var isTimeBasedScenario: Boolean = true
-  var transactionDelayTime: String = null
 
- */
 
   feed(feeder)
 
@@ -68,35 +59,6 @@ abstract class RestBaseScenario extends RestApi {
   override def searchAssetList(checks: List[HttpCheck]): ChainBuilder = super.searchAssetList(searchAssetListCheckupList)
 
   override def getEPGMultiChannelProgram(checks: List[HttpCheck]): ChainBuilder = super.getEPGMultiChannelProgram(epgMultiChannelCheckupList)
-
-
-
-/*
-  def setPartnerId(pid: Int) {
-    partnerId = pid
-  }
-
-  def setApiVersion(version: String) {
-    apiVersion = version
-  }
-
-  def setNumberOfUsers(users: String) {
-    numberOfUsers = users
-  }
-
-  def setTestDuration(duration: String) {
-    testDuration = duration
-  }
-
-  def setRampUpduration(rampup: String) {
-    rampUpDuration = rampup
-  }
-
-  def setDelayBetweenTransactions(delayTime: String) {
-    transactionDelayTime = delayTime
-  }
-  */
-
 
 
   def createScenario(name: String, feed: FeederBuilder, chains: ChainBuilder*): ScenarioBuilder = {

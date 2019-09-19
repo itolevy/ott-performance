@@ -1,0 +1,11 @@
+{
+    "apiVersion" : "${restApiVersion}",
+    "ks" : "${ks}",
+    "format": 1,
+    "clientTag": "java:19-06-06",
+    "ignoreNull": true,
+    "filter": {
+        "objectType": "KalturaOTTUserFilter",
+        "idIn": "${userIdIn}"         
+    }
+}

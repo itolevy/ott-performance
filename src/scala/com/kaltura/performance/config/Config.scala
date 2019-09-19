@@ -5,12 +5,14 @@ import scala.concurrent.duration._
 
 		//Global config
 
+		val feeder = System.getProperty("feeder_full_path")
 		val testName = System.getProperty("test_name")
 		val scenarioRepeatValue = System.getProperty("scenario_repeat_value")
 		val pauseBetweenRequests= System.getProperty("pause_between_requests")
 		val scenarioDuration = System.getProperty("scenario_duration")
 		val rampUpDuration = System.getProperty("ramp_up_duration")
 		val numberOfUsers = System.getProperty("number_of_users")
+		val resourcesPath = System.getProperty("resources_path")
 
 		// TVP APi environment config
 	  val base_url = "http://34.249.122.223:8080/v5_2_2/api_v3/service/"

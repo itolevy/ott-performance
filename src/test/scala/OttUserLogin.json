@@ -1,0 +1,7 @@
+{
+    "partnerId" : ${partnerId},
+    "username": "${loginUsername}",
+    "password": "${loginPassword}",
+    "apiVersion": "${restApiVersion}",
+    "clientTag": "LoadTest"
+}

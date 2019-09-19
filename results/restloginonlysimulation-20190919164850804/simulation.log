@@ -1,0 +1,18 @@
+ASSERTION	AAECAAMFAAAAAAAAAFlA
+RUN	com.kaltura.performance.simulations.RestLoginOnlySimulation	restloginonlysimulation	1568911730804	 	3.2.1
+USER	loginOnly	1	START	1568911731423	1568911731423
+USER	loginOnly	2	START	1568911731945	1568911731945
+REQUEST	1		Get runtime configuration for client applications	1568911731446	1568911732457	OK	 
+REQUEST	1		Ott user login request	1568911732470	1568911733046	OK	 
+REQUEST	1		Get Ott User	1568911733069	1568911733312	OK	 
+REQUEST	1		Get domain info	1568911733313	1568911733566	OK	 
+REQUEST	2		Get runtime configuration for client applications	1568911731947	1568911735909	OK	 
+REQUEST	2		Ott user login request	1568911735910	1568911736483	OK	 
+REQUEST	2		Get Ott User	1568911736485	1568911736723	OK	 
+REQUEST	2		Get domain info	1568911736724	1568911736974	OK	 
+REQUEST	1		Get assets action list	1568911733574	1568911737202	OK	 
+REQUEST	2		Get assets action list	1568911736976	1568911738296	OK	 
+REQUEST	1		Get assets action list	1568911737204	1568911797208	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to api.rnd.ott.kaltura.com/54.203.124.77:443 after 60000 ms
+REQUEST	2		Get assets action list	1568911738297	1568911798302	KO	i.g.h.c.i.RequestTimeoutException: Request timeout to api.rnd.ott.kaltura.com/52.25.73.242:443 after 60000 ms
+REQUEST	1		Get assets action list	1568911797217	1568911802849	OK	 
+REQUEST	2		Get assets action list	1568911798303	1568911803352	OK	 

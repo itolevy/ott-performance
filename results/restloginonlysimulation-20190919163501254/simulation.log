@@ -1,0 +1,429 @@
+ASSERTION	AAECAAMFAAAAAAAAAFlA
+RUN	com.kaltura.performance.simulations.RestLoginOnlySimulation	restloginonlysimulation	1568910901254	 	3.2.1
+USER	loginOnly	1	START	1568910902166	1568910902166
+USER	loginOnly	2	START	1568910902679	1568910902679
+REQUEST	1		Get runtime configuration for client applications	1568910902186	1568910903301	OK	 
+REQUEST	1		Ott user login request	1568910903314	1568910903901	OK	 
+REQUEST	1		Get Ott User	1568910903923	1568910904161	OK	 
+ERROR	Get domain info: Failed to build request: Resource {
+    "apiVersion" : "5.2.2.5524",
+    "ks" : "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew="
+} not found 	1568910904165
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 1,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+"apiVersion": "4.7"
+}' not found 	1568910904167
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 2,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+"apiVersion": "4.7"
+}' not found 	1568910904168
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 3,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+"apiVersion": "4.7"
+}' not found 	1568910904168
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 4,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+"apiVersion": "4.7"
+}' not found 	1568910904169
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 5,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+"apiVersion": "4.7"
+}' not found 	1568910904170
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904171
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904171
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904171
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904171
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904171
+ERROR	Get household user list : Failed to build request: Resource {
+  "ks": "djJ8NDc4fK4Z_YZQFEnU63WPJIPLuBIvEUwOPVzE_lYUYiNLQWbESZ22Hmx2AF9aLb75yUL1gFGTi4rFMSouGe92mVf7tXtEiUVf2mTx5KFACmByzhnHQbqcojGw72OGuMqkgRrJOtj3-Q75PxdwLOBngB6F7ew=",
+  "apiVersion": "4.7"
+} not found 	1568910904172
+REQUEST	2		Get runtime configuration for client applications	1568910902681	1568910906624	OK	 
+REQUEST	2		Ott user login request	1568910906625	1568910907198	OK	 
+REQUEST	2		Get Ott User	1568910907200	1568910907436	OK	 
+ERROR	Get domain info: Failed to build request: Resource {
+    "apiVersion" : "5.2.2.5524",
+    "ks" : "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0="
+} not found 	1568910907437
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 1,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+"apiVersion": "4.7"
+}' not found 	1568910907438
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 2,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+"apiVersion": "4.7"
+}' not found 	1568910907439
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 3,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+"apiVersion": "4.7"
+}' not found 	1568910907440
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 4,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+"apiVersion": "4.7"
+}' not found 	1568910907440
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 5,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+"apiVersion": "4.7"
+}' not found 	1568910907441
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907442
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907442
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907442
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907442
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907443
+ERROR	Get household user list : Failed to build request: Resource {
+  "ks": "djJ8NDc4fO_9eWLvJ7Vwiw3Q65RTyMwzCN23Ylf14hjiEjrhOvf3x18Dcx0aO1dVFrcEv2OcXKq5aooD3AVUV5Ow2WbPqUrKEol2Jtoji3NPi0Oldi5KRcmCT6zCiUZC2cVyxEIgf8bsbsN5Djg5OG8wOd9-QD0=",
+  "apiVersion": "4.7"
+} not found 	1568910907443
+REQUEST	1		Get runtime configuration for client applications	1568910909162	1568910909695	OK	 
+REQUEST	1		Ott user login request	1568910909697	1568910909950	OK	 
+REQUEST	1		Get Ott User	1568910909952	1568910910193	OK	 
+ERROR	Get domain info: Failed to build request: Resource {
+    "apiVersion" : "5.2.2.5524",
+    "ks" : "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o="
+} not found 	1568910910195
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 1,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+"apiVersion": "4.7"
+}' not found 	1568910910196
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 2,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+"apiVersion": "4.7"
+}' not found 	1568910910197
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 3,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+"apiVersion": "4.7"
+}' not found 	1568910910197
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 4,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+"apiVersion": "4.7"
+}' not found 	1568910910198
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 5,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+"apiVersion": "4.7"
+}' not found 	1568910910199
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910199
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910200
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910200
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910200
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910200
+ERROR	Get household user list : Failed to build request: Resource {
+  "ks": "djJ8NDc4fCq4G3wyV7U2oAH3aJscE3sDF0fapiSPl7haD7w8LXq7GpofxF5H_9FrjcxbM338ZXD6aGzWmPf0jsvgbXD13RfiT0dTTQmytxgMfv_ODKC1Je3vdf0_6CSY7RH1oTaEXndcMVOyolAFL3kPZWFyp0o=",
+  "apiVersion": "4.7"
+} not found 	1568910910201
+REQUEST	1		Get runtime configuration for client applications	1568910915202	1568910915433	OK	 
+REQUEST	1		Ott user login request	1568910915434	1568910915688	OK	 
+REQUEST	2		Get runtime configuration for client applications	1568910912460	1568910915742	OK	 
+REQUEST	1		Get Ott User	1568910915689	1568910918825	OK	 
+ERROR	Get domain info: Failed to build request: Resource {
+    "apiVersion" : "5.2.2.5524",
+    "ks" : "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478="
+} not found 	1568910918826
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 1,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+"apiVersion": "4.7"
+}' not found 	1568910918827
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 2,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+"apiVersion": "4.7"
+}' not found 	1568910918828
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 3,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+"apiVersion": "4.7"
+}' not found 	1568910918829
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 4,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+"apiVersion": "4.7"
+}' not found 	1568910918830
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 5,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+"apiVersion": "4.7"
+}' not found 	1568910918831
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918831
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918832
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918832
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918832
+ERROR	Get product price action list: Failed to build request: Resource {
+  "id": "3857",
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918832
+ERROR	Get household user list : Failed to build request: Resource {
+  "ks": "djJ8NDc4fPuPhceBhHXd8LRsThvdTFx1iFJ93K61Cbj_ophZEWeuDBNsNb8bEVd9466gc-6FSGRIxaMgABlN9khsch1K6jHyA-c4IWwe5tJ4pu9sVCGhzr3uMRgCjQakvFN-hgEX6pOz8RkRehcRuE3gp9V_478=",
+  "apiVersion": "4.7"
+} not found 	1568910918833
+REQUEST	2		Ott user login request	1568910915742	1568910918841	OK	 
+REQUEST	2		Get Ott User	1568910918843	1568910919078	OK	 
+ERROR	Get domain info: Failed to build request: Resource {
+    "apiVersion" : "5.2.2.5524",
+    "ks" : "djJ8NDc4fM1rRFwMbQ_mcMPiw14JPydFWEF94iiUqUOXXspe4i6h7ceO8AE_kZlS8XOGprpXuOkLDLHFW2I84rGDeCxoCFAHmNgA24po__QBLyuuDQ0ke299alrHynY0_AFX_KEChQGS-BbzMGbC8SRmrLCW2OQ="
+} not found 	1568910919079
+ERROR	Get assets action list: Failed to build request: Resource {
+  "kSql": "(and asset_type='\''600'\''   customer_type_blacklist!='\''5'\'' (or region_agnostic_user_types='\''5'\'' (or region_whitelist='\''1090'\'' (and region_blacklist!='\''1090'\'' (or region_whitelist='\''0'\'' region_whitelist!+\")))))",
+  "typeIn": "600",
+  "orderBy": "NAME_DESC",
+  "objectType": "KalturaSearchAssetFilter"
+},
+"pager": {
+"pageIndex": 1,
+"pageSize": 50
+},
+"ks": "djJ8NDc4fM1rRFwMbQ_mcMPiw14JPydFWEF94iiUqUOXXspe4i6h7ceO8AE_kZlS8XOGprpXuOkLDLHFW2I84rGDeCxoCFAHmNgA24po__QBLyuuDQ0ke299alrHynY0_AFX_KEChQGS-BbzMGbC8SRmrLCW2OQ=",
+"apiVersion": "4.7"
+}' not found 	1568910919080
+ERROR	
